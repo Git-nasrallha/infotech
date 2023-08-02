@@ -1,0 +1,105 @@
+.footer {
+  padding: 12px;
+  background-color: $textColor;
+  text-transform: capitalize;
+  color: $lightColor;
+  .footer-col {
+    position: relative;
+    margin-bottom: 20px;
+    h4 {
+      color: $lightColor;
+      margin-bottom: 20px;
+      position: relative;
+      margin-left: 20px;
+      .rtl & {
+        margin-left: 0;
+        margin-right: 20px;
+      }
+      &::before {
+        content: "*";
+        font-weight: bold;
+        font-size: 40px;
+        color: $mainColor;
+        position: absolute;
+        left: -18px;
+        top: -4px;
+        .rtl & {
+          left: 0;
+          right: -18px;
+        }
+      }
+    }
+    li {
+      margin-bottom: 10px;
+      svg{
+        font-size: 20px;
+      }
+      a {
+        font-size: 16px;
+        @include prefix(transition, all 0.3s ease-in-out);
+      }
+    }
+    &.footer-links {
+        li{
+            margin-bottom: 5px;
+        }
+      a {
+        color: $lightColor;
+        &:hover {
+          color: $mainColor;
+        }
+      }
+    }
+    &.footer-social {
+      ul {
+        li {
+          margin-bottom: 10px;
+          a {
+            font-size: 16px;
+            display: flex;
+            span {
+              margin-left: 10px;
+              color: $lightColor;
+              @include prefix(transition, all 0.3s ease-in-out);
+              &:hover {
+                color: $mainColor;
+              }
+              .rtl & {
+                margin-left: 0;
+                margin-right: 10px;
+              }
+            }
+            svg {
+              font-size: 20px;
+              display: block;
+              width: 30px;
+              height: 30px;
+              background-color: $lightColor;
+              @include prefix(border-radius, 50%);
+            }
+          }
+          &:nth-of-type(2) {
+            svg {
+              color: $secendColor;
+            }
+          }
+          &:nth-of-type(3) {
+            svg {
+              color: $threedColor;
+            }
+          }
+        }
+      }
+    }
+  }
+  .all-right {
+    font-size: 20px;
+    color: $mainColor;
+    @include media-breakpoint-down(md){ 
+      font-size: 13px;
+     }
+    span {
+      color: $lightColor;
+    }
+  }
+}

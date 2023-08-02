@@ -1,0 +1,77 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import "./node_modules/bootstrap/scss/bootstrap";
+@import "./node_modules/bootstrap/scss/mixins";
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Mogra&display=swap');
+//@import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Mogra&display=swap');
+html{
+  scroll-behavior: smooth;
+}
+*{
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+      -webkit-scroll-behavior: smooth;
+      -o-scroll-behavior: smooth;
+      -moz-scroll-behavior: smooth;
+     scroll-behavior: smooth;
+};
+a{
+  text-decoration: none;
+  .rtl &{
+    font-weight: bold !important ;
+  }
+  
+};
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+};
+*{
+  margin: 0;
+  padding: 0
+};
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Amaranth', sans-serif;
+  .rtl &{
+    font-weight: bold !important ;
+  }
+};
+p{
+  font-family: 'Amaranth', sans-serif;
+  font-family: 'Domine', serif;
+  .rtl &{
+    font-family: 'Amaranth', sans-serif;
+    font-family: 'Domine', serif;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Jomhuria', cursive;;
+    font-weight: bold !important ;
+  }
+};
+span{
+  .rtl &{
+    font-weight: bold !important ;
+  }
+};
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+
+@import './variable';
+@import './helpers';
+@import './navber';
+@import './sidebar';
+@import './home';
+@import './slider';
+@import './contact';
+@import './footer';
+@import './about';

@@ -1,0 +1,62 @@
+{
+    "LANGUAGE":{
+        "EN":"Englisgh",
+        "AR":"العربية"
+    },
+   "NAVBER":{
+    "HOME":"Home",
+    "ABOUTUS":"About us",
+    "SERVICES":"Services",
+    "DEVICES":"devices",
+    "PROJECTS":"Projects",
+    "CONTACTUS":"Contact us"
+   },
+   "HEADING":{
+    "WELCOME":"welcome To",
+    "COMPANYNAME":"information technology",
+    "OURSERVICES":"our Services",
+    "FEATURES":"featuers",
+    "OURTEAM":"our team",
+    "DEVICES":"devices gallery",
+    "OURCLIENTS":"Our Clients",
+    "CONTACTUS":"Contact us",
+    "CONTACTINFO":"Contact Information",
+    "SENDMESSAGE":"send your message",
+    "ADDRESS":"Eastern Province - Al-Ahsa Governorate - Hofuf City - University Street, behind the tours market",
+    "FULLNAME":"Full Name",
+    "SUBJECT":"Subject",
+    "EMAIL":"Email",
+    "MESSAGE":"Your Message",
+    "SOCIALMEDIA":"social media",
+    "LINKS":"links",
+    "FACEBOOK":"facebook",
+    "TWITTER":"twitter",
+    "YOUTUBE":"youtube"
+   
+   },
+   "SECTIONINFO":{
+    "ABOUT1":"We Are An Information Technology Organization Working In The Field Of Computer Services And Software Development For More Than 20 Years The Most Important Thing That Distinguishes Us Is The Interest In The Quality Of Work And Honesty In It, And Presenting It To The Customer In A Manner Commensurate With The Name And Heritage The Foundation, Thanks To God .",
+    "ABOUT2":"We Achieved A Lot Of Success And Gained The Trust And Respect Of Everyone Who Dealt With Us, And Thanks To God Our Services Receive Appreciation And Respect From Everyone. We Care About The Smallest Details In Order To Provide A Better Service For Everyone We Always Strive To Develop In Order To Keep Pace With Everything Modern. Quality And Workmanship Are Our Title And Goal That We Always Strive To Achieve .",
+    "SERVICE1":"We have all new and used computers and laptops",
+    "SERVICE2":"We have all kinds of cashier ,A4 and barcode printers",
+    "SERVICE3":"Cashier software to manage all commercial activities",
+    "SERVICE4":"Programs for managing restaurants and cafes",
+    "SERVICE5":"create websites",
+    "SERVICE6":"create mobile applictions",
+    "FEATUREHEADER":"Our programs are characterized by ease of use, support for the Arabic and English languages, defining permissions for users, and many features that make us distinct from others, such as",
+    "FOOTERINFO":"All rights reserved © 2021",
+    "CLIENTINFO":"We are always proud of our client list .",
+    "TEAMINFO":"We have a team trained at the highest level and has great experience in the field of computers, desktops, websites, hosting and mobile applications .",
+    "PROJECTSINFO":"In light of technological progress and digital transformation, we always strive to compete to provide the best programs to facilitate the movement of work and management in all commercial activities such as ..."
+
+   },
+   "BUTTONS":{
+    "READMORE":"read more",
+    "SHOWMORE":"show more",
+    "ALL":"all",
+    "PC":"pc",
+    "LABTOP":"labtop",
+    "PRINTER":"printer",
+    "SEND":"send"
+   }
+}

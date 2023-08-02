@@ -1,0 +1,119 @@
+.navber-app {
+  background-color: $lightColor;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  z-index: 1000;
+  @include prefix(box-shadow, 1px 1px 5px $secendColor);
+  .nav-content {
+    justify-content: space-between;
+    .logo {
+      img {
+        width: 50px;
+        height: 50px;
+        @include prefix(border-radius, 50%);
+      }
+    }
+    .navber-links {
+      position: relative;
+      li {
+        text-transform: capitalize;
+        text-align: center;
+        a {
+          text-decoration: none;
+          color: $textColor;
+          font-size: 16px;
+          font-weight: 500;
+          position: relative;
+          display: block;
+          margin-left: 20px;
+          @include prefix(transition,all .3s ease-in-out);
+          font-family: 'Amaranth', sans-serif;
+          
+          &:hover{
+            color: $threedColor;
+          }
+          &.active {
+            color: $threedColor;
+            &::before {
+              content: "";
+              display: block;
+              width: 100%;
+              height: 2px;
+              background-color: $threedColor;
+              position: absolute;
+              bottom: 15px;
+            }
+            &::after {
+              content: "";
+              display: block;
+              width: 50%;
+              height: 2px;
+              background-color: rgba(99, 222, 63, 0.9882352941);
+              position: absolute;
+              bottom: 15px;
+              left: 25%;
+            }
+          };
+          .rtl &{
+            font-size: 20px;
+          }
+        }
+      }
+    }
+    .navber-left {
+      .change-lang {
+        position: relative;
+        span {
+          svg {
+            color: $secendColor;
+            font-size: 30px;
+            cursor: pointer;
+          }
+        }
+        .language-list {
+          position: absolute;
+          line-height: 2;
+          padding: 3px 0;
+          width: 150px;
+          right: 0;
+          text-align: center;
+          @include prefix(border-radius, 5px);
+          background-color: $bg2Color;
+          display: none;
+          @include prefix(transition, display 0.5s ease-in-out);
+          &.show {
+            display: block;
+          }
+          .rtl &{
+            right: -63px;
+          }
+          li {
+            cursor: pointer;
+            color: $blackColor;
+            @include prefix(transition, all 0.5s ease-in-out);
+            &:hover {
+              background-color: $threedColor;
+              color: $lightColor;
+            }
+            &:not(:last-of-type) {
+              border-bottom: 1px solid $secendColor;
+            }
+          }
+        }
+      };
+      .toggle-side-bar{
+        font-size: 25px;
+        color: $secendColor;
+        cursor: pointer;
+        margin-left: 40px;
+        .rtl &{
+          margin-left: 0;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}

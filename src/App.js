@@ -1,24 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
+import { useEffect} from "react";
+import "./style/main.scss";
+import Navber from "./components/Navber";
+import SideBar from "./components/SideBar";
+import i18n from "i18next";
+import AppRouter from "./router/AppRouter";
+import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
+import {useLocation} from 'react-router-dom';
 
 function App() {
+  const location = useLocation();
+  console.log(location)
+  useEffect(() => {
+    document.documentElement.dir = i18n.dir();
+    document.body.className = i18n.dir();
+  });
+  const routerPath =[
+    '/','/about','/contact','/services','/projects',
+    '/devices'
+  ]
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className="App">
+        <>
+          <AppRouter />
+          {
+            routerPath.includes(location.pathname) ? 
+            <>
+            <Navber />
+            <SideBar />
+            <Footer />
+            <ScrollToTop />
+            </>
+            :null
+           
+          }
+          
+        </>
+      </div>
+   
   );
 }
 

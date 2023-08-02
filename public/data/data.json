@@ -1,0 +1,431 @@
+{
+    "slides":[
+        {
+            "id":1,
+            "image":"../images/slider/pcslide.jpg",
+            "description":"We offer you the latest high-efficiency computers and laptops at affordable prices",
+            "ar_description":"نقدم لكم أحدث أجهزة الكمبيوتر وللابتوب عالية الكفاءة وبأسعار مناسبة"
+        },
+        {
+            "id":2,
+            "image":"../images/slider/hardslide.jpg",
+            "description":"We supply all high quality computer parts",
+            "ar_description":"نقوم بتوفير جميع أجزاء الكمبيوتر عالية الجودة"
+        },
+        {
+            "id":3,
+            "image":"../images/slider/printerslide.png",
+            "description":"We provide all modern, high-quality printing, ensuring work efficiency and suitability for all activities",
+            "ar_description":"نوفر جميع الطباعات الحديثة عالية الجودة وضمان كفاءة العمل والمناسبة لجميع الانشطة"
+        },
+        {
+            "id":4,
+            "image":"../images/slider/cashierslide.png",
+            "description":"We offer cashier programs suitable for all commercial activities and management of large and small establishments",
+            "ar_description":"نقدم برامج كاشير تصلح لجميع الانشطة التجارية وادارة المؤسسات الكبيرة والصغيرة"
+        },
+        {
+            "id":5,
+            "image":"../images/slider/foodexslide.png",
+            "description":"We provide management software for restaurants and cafes",
+            "ar_description":"نقدم برامج الإدارة المطاعم والكفيهات"
+        },{
+            "id":6,
+            "image":"../images/slider/websiteslide.png",
+            "description":"Creating websites and mobile applications with the latest technology and attractive design",
+            "ar_description":"أنشاء المواقع الالكترونية وتطبيقات المحمول بأحدث التكنولوجيا والتصميمات الجزابة"
+        },{
+            "id":7,
+            "image":"../images/slider/teamworkslide.jpg",
+            "description":"We have an integrated and trained team to serve you 24 hours a day",
+            "ar_description":"لدينا فريق عمل متكامل ومدرب لخدمتك علي مدار 24 ساعة"
+        }
+    ],
+    "features":[
+        {
+            "id":1,
+            "image":"../images/features/feature1.png",
+            "title":"Electronic invoice",
+            "ar_title":"الفاتورة الالكترونية",
+            "description":"execution of the latest electronic billing methods and the QR code system .",
+            "ar_description":"تطبيق لأحدث أساليب الفاتورة الإلكترونية و نظام الكيواركود ."
+        },
+        {
+            "id":2,
+            "image":"../images/features/feature2.png",
+            "title":"Zakat and customs",
+            "ar_title":"الزكاة والجمارك",
+            "description":"Providing all the requirements of the Zakat and Customs Authority .",
+            "ar_description":"توفير كل متطلبات هيئة الزكاة والجمارك ."
+        },
+        {
+            "id":3,
+            "image":"../images/features/feature3.png",
+            "title":"Implementation of the second stage",
+            "ar_title":"تنفيذ المرحلة الثانية",
+            "description":"Prepare for the requirements of the second phase, God willing, as soon as it is approved by the Zakat Authority .",
+            "ar_description":"الإستعداد لمتطلبات المرحلة الثانية بإذن الله فور إعتمادها من هيئة الزكاة ."
+        },
+        {
+            "id":4,
+            "image":"../images/features/feature4.png",
+            "title":"Electronic invoice",
+            "ar_title":"منع التلاعب",
+            "description":"Prevent manipulation by defining user permissions .",
+            "ar_description":"منع التلاعب عن طريق تحديد الصلاحيات للمستخدم ."
+        },
+        {
+            "id":5,
+            "image":"../images/features/feature5.png",
+            "title":"reports",
+            "ar_title":"تقارير",
+            "description":"Availability of a set of reports to inventory all operations (purchase - sale - tax - profit - expenses) .",
+            "ar_description":"توافر مجموعة تقارير لجرد كل العمليات (الشراء - البيع -الضريبة - الربح - المصرفات) ."
+        },
+        {
+            "id":6,
+            "image":"../images/features/feature6.png",
+            "title":"Flexibility",
+            "ar_title":"المرونة",
+            "description":"Ease and flexibility of dealing with programs and reports by searching in more than one way .",
+            "ar_description":"السهولة ومرونة التعامل مع البرامج والتقاير عن طريق البحث بأكثر من طريقة ."
+        },
+        {
+            "id":7,
+            "image":"../images/features/feature7.png",
+            "title":"Our programs",
+            "ar_title":"برامجنا",
+            "description":"Our programs are suitable for managing all commercial activities such as foodstuffs - clothing - electrical appliances - laundries - workshops - restaurants - cafes and others. .",
+            "ar_description":"برامجنا تصلح لإدارة كافة الأنشطة التجارية مثل المواد الغذائية - الملابس - الاجهزة الكهربية - المغاسل -الورش - المطاعم - الكفيهات وغيرها ."
+        },
+        {
+            "id":8,
+            "image":"../images/features/feature8.png",
+            "title":"Modification and update",
+            "ar_title":"التعديل والتحديث",
+            "description":"The possibility of modification and updating according to the client's desire and always working on development to keep pace with the challenges and requirements of the labor market .",
+            "ar_description":"إمكانية التعديل والتحديث حسب رغبة العميل والعمل دائما علي التطوير لمواكبة التحديات ومتطلبات سوق العمل ."
+        },
+        {
+            "id":9,
+            "image":"../images/features/feature9.png",
+            "title":"Modern technology",
+            "ar_title":"التكنولوجيا الحديثة",
+            "description":"We always strive to use the latest technology and software in creating our programs to meet challenges and raise their efficiency .",
+            "ar_description":"نسعي دائما لإستخدام أحدث التكنولوجيا والبرامجيات في إنشاء برامجنا لمواجهات التحديات ورفع كفاءتها ."
+        },
+        {
+            "id":10,
+            "image":"../images/features/feature10.png",
+            "title":"teamwork",
+            "ar_title":"فريق العمل",
+            "description":"We have a highly trained support team to serve you always and solve all problems facing customers in the fastest time .",
+            "ar_description":" لدينا فريق دعم مدرب علي أعلي مستوي لخدمتك دائما وحل جميع المشاكل التي تواجه العملا وفي أسرع وقت ."
+        }
+    ],
+    "team":[
+        {
+            "id":1,
+            "image":"../images/team/team1.jpg",
+            "name":"Mohamed Moustafa",
+            "ar_name":"محمد مصطفي",
+            "job":"team manager",
+            "ar_job":"مدير الفريق"
+        },
+        {
+            "id":2,
+            "image":"../images/team/team2.jpeg",
+            "name":"Ahmed Fawzy",
+            "ar_name":"أحمد فوزي",
+            "job":"desktop developer",
+            "ar_job":"مطور برامج الدسك توب"
+        },
+        {
+            "id":3,
+            "image":"../images/team/team3.png",
+            "name":"Ahmed Rateb",
+            "ar_name":"أحمد راتب",
+            "job":"IT help desk",
+            "ar_job":"صيانة وضبط الأجهزة"
+        },
+        {
+            "id":4,
+            "image":"../images/team/team4.jpg",
+            "name":"Mahmoud Shaban",
+            "ar_name":"محمود شعبان",
+            "job":"mobile Application and Technical Support",
+            "ar_job":"مطور تطبيقات الموبيل ودعم فني"
+        },
+        {
+            "id":5,
+            "image":"../images/team/team5.jpeg",
+            "name":"Mohamed Nasrallah",
+            "ar_name":"محمد نصرالله",
+            "job":"web developer ande Technical Support",
+            "ar_job":"مطور ويب ودعم فني"
+        },
+        {
+            "id":6,
+            "image":"../images/team/team6.png",
+            "name":"Ahmed Gouda",
+            "ar_name":"أحمد جودة",
+            "job":"accountant ande Technical Support ",
+            "ar_job":"محاسب ودعم فني"
+        }
+    ],
+    "devices":[
+        {
+            "id":1,
+            "image":"../images/devices/1.jpg",
+            "category":"labtop"
+        },
+        {
+            "id":2,
+            "image":"../images/devices/2.jpg",
+            "category":"pc"
+        },
+        {
+            "id":3,
+            "image":"../images/devices/3.jpg",
+            "category":"labtop"
+        },{
+            "id":4,
+            "image":"../images/devices/4.jpg",
+            "category":"labtop"
+        },
+        {
+            "id":5,
+            "image":"../images/devices/5.jpg",
+            "category":"labtop"
+        },
+        {
+            "id":6,
+            "image":"../images/devices/6.jpg",
+            "category":"pc"
+        },
+        {
+            "id":7,
+            "image":"../images/devices/7.png",
+            "category":"printer"
+        },
+        {
+            "id":8,
+            "image":"../images/devices/8.png",
+            "category":"printer"
+        },
+        {
+            "id":9,
+            "image":"../images/devices/9.png",
+            "category":"printer"
+        },
+        {
+            "id":10,
+            "image":"../images/devices/10.png",
+            "category":"printer"
+        },
+        {
+            "id":11,
+            "image":"../images/devices/11.jpg",
+            "category":"pc"
+        },
+        {
+            "id":12,
+            "image":"../images/devices/12.png",
+            "category":"pc"
+        }
+        
+
+    ],
+    "clients":[
+        {
+            "id":1,
+            "image":"../images/clients/client1.png"
+        },
+        {
+            "id":2,
+            "image":"../images/clients/client2.png"
+        },
+        {
+            "id":3,
+            "image":"../images/clients/client3.png"
+        },
+        {
+            "id":4,
+            "image":"../images/clients/client4.png"
+        },
+        {
+            "id":5,
+            "image":"../images/clients/client5.png"
+        },
+        {
+            "id":6,
+            "image":"../images/clients/client6.png"
+        },
+        {
+            "id":7,
+            "image":"../images/clients/client7.png"
+        },
+        {
+            "id":8,
+            "image":"../images/clients/client8.png"
+        },
+        {
+            "id":9,
+            "image":"../images/clients/client9.png"
+        },
+        {
+            "id":10,
+            "image":"../images/clients/client10.png"
+        },
+        {
+            "id":11,
+            "image":"../images/clients/client11.png"
+        },
+        {
+            "id":12,
+            "image":"../images/clients/client12.png"
+        },
+        {
+            "id":13,
+            "image":"../images/clients/client13.png"
+        },
+        {
+            "id":14,
+            "image":"../images/clients/client14.png"
+        },
+        {
+            "id":15,
+            "image":"../images/clients/client15.png"
+        },
+        {
+            "id":16,
+            "image":"../images/clients/client16.png"
+        },
+        {
+            "id":17,
+            "image":"../images/clients/client17.png"
+        },
+        {
+            "id":18,
+            "image":"../images/clients/client18.png"
+        },
+        {
+            "id":19,
+            "image":"../images/clients/client19.png"
+        },
+        {
+            "id":20,
+            "image":"../images/clients/client20.png"
+        }
+    ],
+    "projects":[
+        {
+            "id":1,
+            "image":"../images/projects/cashier.png",
+            "title":"cashier programm",
+            "ar_title":"برامج كاشير"
+        },
+        {
+            "id":2,
+            "image":"../images/projects/cart.png",
+            "title":"grocery shop",
+            "ar_title":"المواد الغذائية"
+        },
+        {
+            "id":3,
+            "image":"../images/projects/foodex.png",
+            "title":"foodex system",
+            "ar_title":"سيستم المطاعم"
+        },
+        {
+            "id":4,
+            "image":"../images/projects/coffe.png",
+            "title":"coffe system",
+            "ar_title":"سيستم كفيهات"
+        },
+        {
+            "id":5,
+            "image":"../images/projects/mobile.png",
+            "title":"mobile shope",
+            "ar_title":"محل الموبيل"
+        },
+        {
+            "id":6,
+            "image":"../images/projects/Electrondevices.png",
+            "title":"Electron devices",
+            "ar_title":"محل الأجهزة الكهربية"
+        },
+        {
+            "id":7,
+            "image":"../images/projects/clothes.png",
+            "title":"clothes shope",
+            "ar_title":"محل الملابس"
+        },
+        {
+            "id":8,
+            "image":"../images/projects/cleaning.png",
+            "title":"cleaning shope",
+            "ar_title":"محلات المنظفات"
+        },
+        {
+            "id":9,
+            "image":"../images/projects/washing-machine.png",
+            "title":"washing clothes",
+            "ar_title":"مغسلة الملابس"
+        },
+        {
+            "id":10,
+            "image":"../images/projects/clothestailoring.png",
+            "title":"clothes tailoring",
+            "ar_title":"خياطة الملابس"
+        },
+        {
+            "id":11,
+            "image":"../images/projects/hairaddress.png",
+            "title":"Women's hairdresser",
+            "ar_title":"كوافير نسائي"
+        },
+        {
+            "id":12,
+            "image":"../images/projects/barber-shop.png",
+            "title":"Men's hairdresser",
+            "ar_title":"حلاق رجالي"
+        },
+        {
+            "id":13,
+            "image":"../images/projects/gym.png",
+            "title":"gym holes",
+            "ar_title":"صالات الجيم"
+        },
+        {
+            "id":14,
+            "image":"../images/projects/workshop.png",
+            "title":"workshop",
+            "ar_title":"الورش"
+        },
+        {
+            "id":15,
+            "image":"../images/projects/plumbing.png",
+            "title":"plumbing shope",
+            "ar_title":"محلات السباكة"
+        },
+        {
+            "id":16,
+            "image":"../images/projects/woterfilter.png",
+            "title":"Water desalination",
+            "ar_title":"تحلية المياة"
+        },
+        {
+            "id":17,
+            "image":"../images/projects/reting.png",
+            "title":"reting",
+            "ar_title":"الايجارات"
+        },
+        {
+            "id":18,
+            "image":"../images/projects/Construction.png",
+            "title":"Construction",
+            "ar_title":"المقاولات"
+        }
+    ]
+}

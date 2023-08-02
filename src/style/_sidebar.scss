@@ -1,0 +1,41 @@
+.sidebar{
+    position: fixed;
+    top: 62px;
+    left: -200px;
+    width: 200px;
+    height: 100vh;
+    max-height: 100vh;
+    background-color: $bg2Color;
+    @include prefix(transition,left .5s ease-in-out);
+    z-index: 1000;
+    &.show{
+        left: 0;
+    }
+    .navber-links{
+        flex-direction: column;
+        li{
+            margin-top: 10px;
+            a{
+                text-transform: capitalize;
+                text-decoration: none;
+                color: $textColor;
+                font-size: 16px;
+                font-weight: 500;
+                position: relative;
+                display: block;
+                text-align: center;
+                padding: 5px 0;
+                font-family: 'Amaranth', sans-serif;
+                @include prefix(transition,all .3s ease-in-out);
+                &.active {
+                  color: $lightColor;
+                  background-color: $threedColor;
+                };
+                &:hover{
+                    color: $lightColor;
+                    background-color: $threedColor;
+                }
+            }
+        }
+    }
+}
